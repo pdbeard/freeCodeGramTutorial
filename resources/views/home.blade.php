@@ -2,21 +2,25 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
+    <div class="row">
+        <div class="col-3 p-5">
+            <img src="/img/me.jpg" class="rounded-circle img-thumbnail" alt="">
+        </div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
+        <div class="col-9 pt-5">
+            <div>
+                <h1>freeCodeCamp</h1>
             </div>
+                <div class="d-flex">
+                <div class="pr-4"><strong>145 </strong>posts </div>
+                <div class="pr-4"><strong>24k </strong>followers </div>
+                <div class="pr-4"><strong>224 </strong>following </div>
+            </div>
+
+            <div class="pt-4 font-weight-bold">freeCodecamp.org</div>
+            <div>We're a global community of millions of people learning to code together. We're an open source, donor-supported, 501(c)(3) nonprofit.</div>
+            <div> <a href="#">www.freecodecamp.org</a></div>
+
         </div>
     </div>
 </div>
