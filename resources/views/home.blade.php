@@ -26,13 +26,13 @@
 
     <div class="row pt-4">
         <div class="col-4">
-            <img src="img/me.jpg" class="w-100" alt="">
+            <img src="/img/me.jpg" class="w-100" alt="">
         </div>
         <div class="col-4">
-            <img src="img/me.jpg" class="w-100" alt="">
+            <img src="/img/me.jpg" class="w-100" alt="">
         </div>
         <div class="col-4">
-            <img src="img/me.jpg" class="w-100" alt="">
+            <img src="/img/me.jpg" class="w-100" alt="">
         </div>
     </div>
 
