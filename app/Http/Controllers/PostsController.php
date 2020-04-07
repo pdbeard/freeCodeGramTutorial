@@ -23,6 +23,8 @@ class PostsController extends Controller
             'image'=>['required', 'image'],
         ]);
 
+        // stores locally into the uploads directory. Will create it automatically in storage
+        // must enable 'php artisan storage:link' to make images accesible on website.
         $imagePath=request('image')->store('uploads','public');
 
         auth()->user()->posts()->create([
